@@ -5,7 +5,7 @@ date: "October 22, 2015"
 output: html_document
 ---
 ## Variables
-# activity class and name
+### activity class and name
 + 1 : WALKING
 + 2 : WALKING_UPSTAIRS
 + 3 : WALKING_DOWNSTAIRS
@@ -13,10 +13,11 @@ output: html_document
 + 5 : STANDING
 + 6 : LAYING
 
-# subject
+### subject
 + number 1 to 30, each identifies the subject  who performed the activity for each window sample
 
-# features info
+### features
+#### features info
 + The features selected for this database come from the accelerometer and gyroscope 3-axial 
 + raw signals plus tAcc-XYZ and tGyro-XYZ. These time domain signals
 + were captured at a constant rate of 50 Hz. Then they were filtered using a median filter 
@@ -33,7 +34,7 @@ output: html_document
 + Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing 
 + fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag.
 
-# Variable name abbreviation
+#### feature name abbreviation
 + X, Y, XYZ :  denote 3-axial signals in the X, Y and Z directions.
 + f : the prefix 'f' indicates frequency domain signals.
 + t : the prefix 't' to denote time

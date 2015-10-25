@@ -7,7 +7,7 @@ output: html_document
 ## Notes for run_anlysis.R
 + The source data is collected from the accelerometers from the Samsung Galaxy S smartphone.
 + The data set comes in two sets:the training data and test data
-# requirements for execution
+## requirements for execution
 + Library dplyr
 + Library plyr
 + the working directory must contain following data files
@@ -19,7 +19,7 @@ output: html_document
 ++ UCI HAR Dataset/test/subject_test.txt
 ++ UCI HAR Dataset/features.txt 
 
-# Steps taken to get summary data is the following:
+## Steps taken to get summary data is the following:
 + 1. Traning and test data set are merged: SetX, SetY and sbuject contains merged measurements, 
 +    activity code and subject repectively.
 + 2. Only mean and standard deviation for each measurements are extracted from the merged data set.
